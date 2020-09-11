@@ -1,0 +1,37 @@
+﻿Assignment Submission Report:
+
+Files:
+
+test.cpp
+
+-main file
+-all testing is showcased.
+-different approaches used for converting the input txt file to correct format
+-unsuccessful in converting the triangle.txt file 
+-successful in converting SampleData.txt &&  ExampleData.txt file which follows the same format as given triangle.txt file.
+-error faced : seg fault (most likely due to stoi() used to convert string to int)
+-approaches used to fix it : 
+	1. const char *c = temp_string.c_str(); scanf(c,"%d",&temp_int);using c_str()
+	2. for(auto ch : temp_string) temp_int = (temp_int*10) + (ch - '0');
+
+test_script.cpp
+
+-test script for running the file.
+-two example txt input files given (SampleData.txt and ExampleData.txt)
+-output attached and shown here as well
+-reading from the file → storing in data structure in correct format → finding the max_sum with answer
+
+Result: SampleData.txt file
+
+
+
+
+
+
+
+
+
+
+
+
+Result: ExampleData.txt 
