@@ -56,17 +56,7 @@ int main()
 	}
 	cout << endl;
 	cout << "Data for data[2][2] " << data[2][2] << endl;
-/*
-	vector<int> result;
 
-	for(int i=data.size()-2; i>=0; i--){
-		for(int j=0; j<=i; j++){
-			result[j] = max(data[i+1][j],data[i+1][j+1]) + data[i][j];
-		}
-	}
-
-	cout << "Final ans: " << result[0];
-*/
 	cout << "Max sum: " << max_sum(data) << endl;
 
 
